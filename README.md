@@ -38,7 +38,7 @@
 > plt.close
 ---
 
-## Exercie 2
+## Exercise 2
 ---
 >
 > Activity 2 Given the following data for multiple lines
