@@ -85,6 +85,7 @@
 > students = [40, 35, 30, 50]
 
 >
+# Plotting bar
 > plt.bar(courses, students)
 >
 > plt.title ('A bar Graph')
@@ -109,3 +110,67 @@
 > plt.pie(sales, labels=devices, autopct="%1.2f%%")
 >
 > plt.show()
+---
+>
+# Creating a Histogram Chart
+
+>
+> data = np.random.randn(1000)
+
+>
+> scores = [56, 78, 90, 45, 77, 65, 88, 92, 67, 70, 82]
+
+# plotting histogram
+>
+>plt.hist(data, bins=40, egdecolor='black')
+
+>
+>plt.show()
+---
+>
+# Creating a Scatter Plot
+
+>
+# scatter plot
+>
+> height = [150, 160, 165, 170, 175, 180, 155]
+>
+> weight = [50, 55, 60, 65, 70, 75, 52]
+
+> plt.scatter(height, weight)
+> plt.show()
+---
+>
+# Creating a Subplot Chart
+>
+>
+# subplot
+
+> x = [1, 2, 3, 4, 5]
+>
+> y1 = [1, 4, 9, 16, 25]
+> 
+> y2 = [1, 2, 3, 4, 5]
+> 
+> fig, (fig1, fig2) = plt.subplots(2,1)
+
+>
+# creating subplot 
+>
+> fig1.plot(x, y1, color ='red', marker='o')
+>
+> fig1.set_title('Chioma record')
+
+>
+# fig 2
+>
+> fig2.plot(x, y2, color ='purple', marker='x')
+>
+> fig2.set_title('David record')
+
+# general title
+>
+> fig.suptitle('A Sunplot Diagram')
+
+>
+>plt.show()
