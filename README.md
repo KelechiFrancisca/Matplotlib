@@ -52,7 +52,7 @@
 > y3 = [2, 8, 20, 25, 30]
 ---
 >
-## Answer
+## Answer:
 >
 > plt.plot(x, y1, marker ='o', color = 'green', linestyle = 'dashed', markersize =15, label = 'Y1 graph')
 >
@@ -68,3 +68,44 @@
 > plt.xlabel("X Axis")
 >
 > plt.legend()
+---
+
+## Exercise 3
+----
+> Activity 3 Given the set of dataset, plot a bar, pie, histogram, scatter and subplot with py.
+---
+## Answer:
+>
+# Creating a Bar Chart
+
+>
+>
+> courses = ['Math', 'Science', 'History', 'English',]
+>
+> students = [40, 35, 30, 50]
+
+>
+> plt.bar(courses, students)
+>
+> plt.title ('A bar Graph')
+>
+> plt.ylabel('Students')
+>
+> plt.xlabel('Courses')
+>
+> plt.show()
+---
+>
+# Creating a Pie Chart
+
+
+> # pie chart
+> 
+> devices = ['Laptops','Mobiles','Tablets']
+>
+> sales = [200, 500, 100]
+
+>
+> plt.pie(sales, labels=devices, autopct="%1.2f%%")
+>
+> plt.show()
