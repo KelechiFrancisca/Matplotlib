@@ -5,11 +5,11 @@
 >
 > Activity 1 A a trainer plot a graph of the following students scores using python
 >
-> Based_score = [20,40,60,70,80,100]
+> Based_score = [20, 40, 60, 70, 80, 100]
 >
-> Chioma = [70,80,90,95,30,89]
+> Chioma = [70, 80, 90, 95, 30, 89]
 >
-> David = [40,60,50,45,70,55]
+> David = [40, 60, 50, 45, 70, 55]
 ---
 >
 ## Answer:
