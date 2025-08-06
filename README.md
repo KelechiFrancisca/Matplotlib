@@ -135,6 +135,20 @@
 >
 >plt.show()
 ---
+
+```python
+# histogram
+
+data = np.random.randn(1000)
+
+scores = [56, 78, 90, 45, 77, 65, 88, 92, 67, 70, 82]
+
+# plotting histogram
+plt.hist(data, bins=40, edgecolor='black')
+plt.title('distribution of scores')
+plt.show()
+
+```
 >
 # Creating a Scatter Plot
 
