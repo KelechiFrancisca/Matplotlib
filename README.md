@@ -37,6 +37,7 @@
 
 > plt.close
 ---
+<img width="562" height="455" alt="v1" src="https://github.com/user-attachments/assets/a6d4a3f2-797f-401d-902b-1a43de7c203c" />
 
 
 
