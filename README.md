@@ -73,6 +73,10 @@
 >
 > plt.legend()
 ---
+<img width="562" height="455" alt="v2" src="https://github.com/user-attachments/assets/45caa856-5e02-4db6-b213-8b5944427e28" />
+
+
+
 
 ## Exercise 3
 ----
