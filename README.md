@@ -38,6 +38,9 @@
 > plt.close
 ---
 
+
+
+
 ## Exercise 2
 ---
 >
