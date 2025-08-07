@@ -119,6 +119,8 @@
 >
 > plt.show()
 ---
+
+
 >
 # Creating a Histogram Chart
 
