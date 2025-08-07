@@ -149,6 +149,8 @@ plt.title('distribution of scores')
 plt.show()
 
 ```
+<img width="667" height="605" alt="v10" src="https://github.com/user-attachments/assets/6e0d35f0-831a-40f9-911a-8a5af24edd1e" />
+
 
 
 >
