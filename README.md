@@ -86,27 +86,19 @@
 >
 # Creating a Bar Chart
 
->
->
-> courses = ['Math', 'Science', 'History', 'English',]
->
-> students = [40, 35, 30, 50]
+```python
+# bar
+plt.figure(figsize=(8, 7))
+courses = ['Math', 'Science', 'History', 'English',]
+students = [40, 35, 30, 50]
 
->
-# Plotting bar
->
->plt.figure(figsize=(8, 7))
->
-> plt.bar(courses, students)
->
-> plt.title ('A bar Graph')
->
-> plt.ylabel('Students')
->
-> plt.xlabel('Courses')
->
-> plt.show()
----
+plt.bar(courses, students)
+plt.title ('A bar Graph')
+plt.ylabel('Students')
+plt.xlabel('Courses')
+plt.show(
+
+```
 <img width="686" height="624" alt="v12" src="https://github.com/user-attachments/assets/0a5db6bc-ae5b-4cfb-810a-b8d82adffc28" />
 
 
