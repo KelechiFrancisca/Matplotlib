@@ -151,18 +151,16 @@ plt.show()
 >
 # Creating a Scatter Plot
 
->
+```python
 # scatter plot
->
-> height = [150, 160, 165, 170, 175, 180, 155]
->
-> weight = [50, 55, 60, 65, 70, 75, 52]
+height = [150, 160, 165, 170, 175, 130, 155, 159, 150, 165, 180, 175, 180, 145]
+weight = [50, 55, 60, 65, 70, 75, 42, 59, 55, 80, 65, 90, 55, 52]
 
-> plt.scatter(height, weight)
-> plt.title(('Investigating relationship between height and weight')
-> 
-> plt.show()
----
+plt.scatter(height, weight)
+plt.title('Investigating relationship between height and weight')
+plt.show()
+
+```
 <img width="543" height="435" alt="v6" src="https://github.com/user-attachments/assets/637627ad-dbba-41e8-ba51-50da47011d75" />
 
 >
