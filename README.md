@@ -170,7 +170,7 @@ plt.show()
 > 
 > plt.show()
 ---
-
+<img width="543" height="435" alt="v6" src="https://github.com/user-attachments/assets/637627ad-dbba-41e8-ba51-50da47011d75" />
 
 >
 # Creating a Subplot Chart
