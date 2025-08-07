@@ -113,18 +113,16 @@
 >
 # Creating a Pie Chart
 
+```python
+# pie chart
+plt.figure(figsize=(7, 6))
+devices = ['Laptops','Mobiles','Tablets']
+sales = [200, 500, 100]
 
-> # pie chart
-> 
-> devices = ['Laptops','Mobiles','Tablets']
->
-> sales = [200, 500, 100]
+plt.pie(sales, labels=devices, autopct="%1.2f%%")
+plt.show()
 
->
-> plt.pie(sales, labels=devices, autopct="%1.2f%%")
->
-> plt.show()
----
+```
 <img width="497" height="482" alt="v11" src="https://github.com/user-attachments/assets/a95e23ed-8f61-4778-beb6-fc298b332d35" />
 
 
