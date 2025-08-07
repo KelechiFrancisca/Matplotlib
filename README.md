@@ -107,6 +107,7 @@
 >
 > plt.show()
 ---
+<img width="686" height="624" alt="v12" src="https://github.com/user-attachments/assets/0a5db6bc-ae5b-4cfb-810a-b8d82adffc28" />
 
 
 >
