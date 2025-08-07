@@ -19,24 +19,27 @@
 > import numpy as np
 >
 > import matplotlib.pyplot as plt
----
->
-> plt.plot(based_score, Chioma,color='red', marker='o', label='Chioma')
->
-> plt.plot(based_score, David, marker='x',color='purple', label='David')
 >
 
-> plt.title("A Graph of Students score")
-> 
-> plt.ylabel("Main score")
-> 
-> plt.xlabel('Students Scores')
+# Visualizing the scores of Student
 
+```python
+based_score = [20,40,60,70,80,100]
+Chioma = [70,80,90,95,30,89]
+David = [40,60,50,45,70,55]
 
-> plt.legend()
+plt.plot(based_score, Chioma,color='red', marker='o', label='Chioma')
+plt.plot(based_score, David, marker='x',color='purple', label='David')
 
-> plt.close
----
+plt.title("A Graph of Students score")
+plt.ylabel("Main score")
+plt.xlabel('Students Scores')
+
+plt.legend()
+
+plt.close
+
+```
 <img width="562" height="455" alt="v1" src="https://github.com/user-attachments/assets/a6d4a3f2-797f-401d-902b-1a43de7c203c" />
 
 
