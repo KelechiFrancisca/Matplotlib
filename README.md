@@ -149,6 +149,8 @@ plt.title('distribution of scores')
 plt.show()
 
 ```
+
+
 >
 # Creating a Scatter Plot
 
