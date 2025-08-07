@@ -94,6 +94,9 @@
 
 >
 # Plotting bar
+>
+>plt.figure(figsize=(8, 7))
+>
 > plt.bar(courses, students)
 >
 > plt.title ('A bar Graph')
@@ -104,6 +107,8 @@
 >
 > plt.show()
 ---
+
+
 >
 # Creating a Pie Chart
 
