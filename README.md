@@ -216,5 +216,6 @@ plt.show()
 >
 >plt.show()
 ---
+<img width="543" height="461" alt="v13" src="https://github.com/user-attachments/assets/2263a1ca-3772-4e7d-bb53-f277175e5778" />
 
 
