@@ -133,6 +133,8 @@
 >plt.hist(data, bins=40, egdecolor='black')
 
 >
+>plt.title('distribution of scores')
+>
 >plt.show()
 ---
 
@@ -164,8 +166,12 @@ plt.show()
 > weight = [50, 55, 60, 65, 70, 75, 52]
 
 > plt.scatter(height, weight)
+> plt.title(('Investigating relationship between height and weight')
+> 
 > plt.show()
 ---
+
+
 >
 # Creating a Subplot Chart
 >
