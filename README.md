@@ -165,39 +165,30 @@ plt.show()
 
 >
 # Creating a Subplot Chart
->
->
+
+```python
 # subplot
 
-> x = [1, 2, 3, 4, 5]
->
-> y1 = [1, 4, 9, 16, 25]
-> 
-> y2 = [1, 2, 3, 4, 5]
-> 
-> fig, (fig1, fig2) = plt.subplots(2,1)
+x = [1, 2, 3, 4, 5]
+y1 = [1, 4, 9, 16, 25]
+y2 = [1, 2, 3, 4, 5]
+fig, (fig1, fig2) = plt.subplots(2, 1)
 
->
 # creating subplot 
->
-> fig1.plot(x, y1, color ='red', marker='o')
->
-> fig1.set_title('Chioma record')
+fig1.plot(x, y1, color ='red', marker='o')
+fig1.set_title('Chioma record')
 
->
+
 # fig 2
->
-> fig2.plot(x, y2, color ='purple', marker='x')
->
-> fig2.set_title('David record')
+fig2.plot(x, y2, color ='purple', marker='x')
+fig2.set_title('David record')
 
 # general title
->
-> fig.suptitle('A Sunplot Diagram')
+fig.suptitle('A Sunplot Diagram')
 
->
->plt.show()
----
+plt.show()
+
+```
 <img width="543" height="461" alt="v13" src="https://github.com/user-attachments/assets/2263a1ca-3772-4e7d-bb53-f277175e5778" />
 
 
