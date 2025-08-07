@@ -21,7 +21,7 @@
 > import matplotlib.pyplot as plt
 >
 
-# Visualizing the scores of Student
+# Visualizing the scores of Students
 
 ```python
 based_score = [20,40,60,70,80,100]
@@ -61,21 +61,25 @@ plt.close
 >
 ## Answer:
 >
-> plt.plot(x, y1, marker ='o', color = 'green', linestyle = 'dashed', markersize =15, label = 'Y1 graph')
->
-> plt.plot(x, y2, marker ='o', color = 'purple', linestyle = 'dashed', markersize =15, label = 'Y2 graph')
->
-> plt.plot(x, y3, marker ='o', color = 'red', linestyle = 'dashed', markersize =15, label = 'Y3 graph')
+# Ploting multiple lines
 
->
-> plt.title("A Graph of x and y")
->
-> plt.ylabel("Y Axis")
->
-> plt.xlabel("X Axis")
->
-> plt.legend()
----
+```python
+# values for x and y
+x = [1, 2, 3, 4, 5]
+y1 = [1, 4, 9, 16, 25]
+y2 = [1, 2, 3, 4, 5]
+y3 = [2, 8, 20, 25, 30]
+
+plt.plot(x, y1, marker ='o', color = 'green', linestyle = 'dashed', markersize =15, label = 'Y1 graph')
+plt.plot(x, y2, marker ='o', color = 'purple', linestyle = 'dashed', markersize =15, label = 'Y2 graph')
+plt.plot(x, y3, marker ='o', color = 'red', linestyle = 'dashed', markersize =15, label = 'Y3 graph')
+
+plt.title("A Graph of x and y")
+plt.ylabel("Y Axis")
+plt.xlabel("X Axis")
+plt.legend()
+```
+
 <img width="562" height="455" alt="v2" src="https://github.com/user-attachments/assets/45caa856-5e02-4db6-b213-8b5944427e28" />
 
 
