@@ -203,3 +203,4 @@ plt.title('Sales by months')
 plt.show()
 
 ```
+<img width="676" height="605" alt="v9" src="https://github.com/user-attachments/assets/0219f6f0-2d1e-450a-a2fa-62f74a827932" />
