@@ -188,4 +188,18 @@ plt.show()
 ```
 <img width="543" height="461" alt="v13" src="https://github.com/user-attachments/assets/2263a1ca-3772-4e7d-bb53-f277175e5778" />
 
+>
+# Creating Company's Monthly Sales
 
+```python
+# company's monthly sales
+plt.figure(figsize=(8, 7))
+months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun']
+sales = [100, 120, 130, 90, 150, 170]
+
+# plotting the graph
+plt.plot(months, sales, marker="o", color="red")
+plt.title('Sales by months')
+plt.show()
+
+```
